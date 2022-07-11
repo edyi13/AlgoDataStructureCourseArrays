@@ -102,6 +102,8 @@ class Program {
     int[] arr1 = {1,3,5};
     int[] arr2 = {};
     var arrResult = mergeSortedArray(arr1,arr2);
+    //Time Complexity: O (nlogn + mlogm + (n + m)) 
+    //Space Complexity: O ( (n + m) )
     Array.ForEach(arrResult, Console.WriteLine);
     var arrResult2 = mergeSortedArray2(arr1,arr2);
     Array.ForEach(arrResult2, Console.WriteLine);
